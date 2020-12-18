@@ -80,8 +80,6 @@ int main(void)
 					_delay_ms(1000);
 					SEND_CMD(0x01);
 					LCD_PRINT("system is on");
-					MOVING_CURSOR(1,0);
-					LCD_PRINT(string2);
 					flag=1;
 					}
 					else{
